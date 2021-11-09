@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">PruebaDiegoArriagada</string>
     <string name="title_activity_satelite">Satelite</string>
+    <string name="title_activity_satelite2">Satelite2</string>
 </resources>
