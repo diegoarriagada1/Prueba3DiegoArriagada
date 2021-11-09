@@ -21,9 +21,5 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Satelite" />
-    <Button
-        android:id="@+id/volver2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="volver" />
+
 </LinearLayout>
