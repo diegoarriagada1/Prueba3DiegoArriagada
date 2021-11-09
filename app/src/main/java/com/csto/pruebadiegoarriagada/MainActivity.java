@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                     Intent I = new Intent(getApplicationContext(),ventana3.class);
                     startActivity(I);
                 }
-                if(seleccion.getSelectedItem()=="cartagena "){
+                if(seleccion.getSelectedItem()=="cartagena"){
                     Intent I = new Intent(getApplicationContext(),Ventana4.class);
                     startActivity(I);
                 }

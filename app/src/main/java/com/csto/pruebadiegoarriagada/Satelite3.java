@@ -44,9 +44,9 @@ public class Satelite3 extends FragmentActivity implements OnMapReadyCallback {
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-33.5396432,-71.6288951);
+        LatLng sydney = new LatLng(-33.5383555,-71.63353);
         mMap.addMarker(new MarkerOptions().position(sydney).title("cartagena"));
-        mMap.moveCamera(CameraUpdateFactory.zoomTo(15));
+        mMap.moveCamera(CameraUpdateFactory.zoomTo(13));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 }
