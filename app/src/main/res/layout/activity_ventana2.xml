@@ -14,8 +14,9 @@
         android:src="@drawable/descarga" />
 
     <Button
-        android:text="Entrar"
+        android:id="@+id/entrar"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Entrar" />
 
 </LinearLayout>
