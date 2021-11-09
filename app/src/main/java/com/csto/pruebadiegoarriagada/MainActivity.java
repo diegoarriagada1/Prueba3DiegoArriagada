@@ -39,6 +39,10 @@ public class MainActivity extends AppCompatActivity {
                     Intent I = new Intent(getApplicationContext(),Ventana2.class);
                     startActivity(I);
                 }
+                if(seleccion.getSelectedItem()=="torres del paine "){
+                    Intent I = new Intent(getApplicationContext(),ventana3.class);
+                    startActivity(I);
+                }
                 if(seleccion.getSelectedItem()=="..."){
                     Toast.makeText(getApplicationContext(), "Debe seleccionar destino",Toast.LENGTH_LONG).show();
                 }
