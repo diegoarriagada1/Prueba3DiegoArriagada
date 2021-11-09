@@ -30,6 +30,13 @@
             android:value="@string/google_maps_key" />
 
         <activity
+            android:name=".Satelite3"
+            android:exported="true"
+            android:label="@string/title_activity_satelite3" />
+        <activity
+            android:name=".Ventana4"
+            android:exported="true" />
+        <activity
             android:name=".Satelite2"
             android:exported="true"
             android:label="@string/title_activity_satelite2" />

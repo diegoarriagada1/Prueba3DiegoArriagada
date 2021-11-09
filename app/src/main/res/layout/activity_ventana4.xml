@@ -6,21 +6,19 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".Ventana2">
-
+    tools:context=".Ventana4">
     <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/descarga" />
+        android:src="@drawable/cartagena1" />
     <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/foto2" />
+        android:src="@drawable/cartagena2" />
 
     <Button
         android:id="@+id/entrar3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Satelite" />
-
 </LinearLayout>

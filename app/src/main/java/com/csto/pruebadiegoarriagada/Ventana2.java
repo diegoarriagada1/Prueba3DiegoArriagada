@@ -13,7 +13,7 @@ public class Ventana2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ventana2);
-        e = (Button) findViewById(R.id.entrar2);
+        e = (Button) findViewById(R.id.entrar3);
         e.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

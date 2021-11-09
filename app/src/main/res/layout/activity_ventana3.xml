@@ -17,7 +17,7 @@
         android:src="@drawable/torresdelpaine2" />
 
     <Button
-        android:id="@+id/entrar2"
+        android:id="@+id/entrar3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Satelite" />

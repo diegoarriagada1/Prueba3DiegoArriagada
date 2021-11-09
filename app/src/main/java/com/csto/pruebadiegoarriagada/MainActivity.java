@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         valores.add(".....");
         valores.add("pelluhue");
         valores.add("torres del paine ");
-        valores.add("cartajena");
+        valores.add("cartagena");
 
         ArrayAdapter<String> adaptador = new ArrayAdapter<String>(getApplicationContext(),R.layout.support_simple_spinner_dropdown_item,valores);
         seleccion.setAdapter(adaptador);
@@ -41,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
                 }
                 if(seleccion.getSelectedItem()=="torres del paine "){
                     Intent I = new Intent(getApplicationContext(),ventana3.class);
+                    startActivity(I);
+                }
+                if(seleccion.getSelectedItem()=="cartagena "){
+                    Intent I = new Intent(getApplicationContext(),Ventana4.class);
                     startActivity(I);
                 }
                 if(seleccion.getSelectedItem()=="..."){
